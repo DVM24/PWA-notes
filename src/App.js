@@ -5,25 +5,42 @@ import './App.css';
 // Import the Today component to be used below
 import TextareaEditor from './TextareaEditor/TextareaEditor'
 import SendButton from './SendButton/SendButton'
-// Import the History component to be used below
-// import History from './History/History'
 
 class App extends Component {
-  render() {
-    return (
-       <div className="App section">
+    constructor() {
+        super();
+        this.state = {
+            text: '',
+        };
+    }
+    componentDidMount() {
+        fetch('http://localhost:8080/disk.yandex.php', {
+            method: "POST",
+            headers: [
+                ["Content-Type", "application/json"],
+                ["Content-Type", "text/plain"]
+            ],
+            body: JSON.stringify({ 'action': 'getNote', 'name': 'Английский' })
+        }).then(result => result.json()).then(result => this.setState({ value: result.text }))
+
+    }
+    render() {
+        return (
+            <div className="App section">
       <div className="box">
-        <TextareaEditor/>
+        <textarea className="textarea" onChange={this.handleChange} value={this.state.text}></textarea>
         <div className="buttons is-flex" style={{ marginTop: "16px" }}>
-          <SendButton/>
+          <button className="button" style={{ flexGrow: 1 }} >
+        Save
+      </button>
           <button className="button" style={{ flexGrow: 1 }}>
             Update
           </button>
         </div>
       </div>
     </div>
-      
-    );
-  }
+
+        );
+    }
 }
 export default App;
