@@ -1,0 +1,1066 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"stack"
+			],
+			[
+				"for",
+				"for\tfor …"
+			],
+			[
+				"globa",
+				"global"
+			],
+			[
+				"glob",
+				"global"
+			],
+			[
+				"pa",
+				"parse_if"
+			],
+			[
+				"toke",
+				"tokens"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"gloa",
+				"global"
+			],
+			[
+				"co",
+				"count_vars"
+			],
+			[
+				"fra",
+				"frames"
+			],
+			[
+				"fp",
+				"fps"
+			],
+			[
+				"arr",
+				"arr_filters"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"ara",
+				"array"
+			],
+			[
+				"ar",
+				"array2"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"op",
+				"ops_exist"
+			],
+			[
+				"operator",
+				"Operator"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"va",
+				"vars_exist"
+			],
+			[
+				"var",
+				"vars_exist"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"a",
+				"auto\toverflow-x"
+			],
+			[
+				"per",
+				"permission"
+			],
+			[
+				"role",
+				"roles_permissions"
+			],
+			[
+				"id",
+				"id_role"
+			],
+			[
+				"up",
+				"update_permission"
+			],
+			[
+				"p",
+				"permissions"
+			],
+			[
+				"id_",
+				"id_permission"
+			],
+			[
+				"ord",
+				"order_by"
+			],
+			[
+				"me",
+				"methods"
+			],
+			[
+				"fu",
+				"func"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"sele",
+				"selected_option"
+			],
+			[
+				"fi",
+				"filter"
+			],
+			[
+				"fil",
+				"filter_field"
+			],
+			[
+				"ex",
+				"extract"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"f",
+				"filter"
+			],
+			[
+				"on",
+				"on-enter"
+			],
+			[
+				"on-",
+				"on-enter"
+			],
+			[
+				"V",
+				"visible"
+			],
+			[
+				"CAle",
+				"CalendarFrame"
+			],
+			[
+				"Da",
+				"DayEventsGroup"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"E",
+				"EventInfoLabel"
+			],
+			[
+				"EventsO",
+				"EventOfDayList"
+			],
+			[
+				"Rea",
+				"RealDay"
+			],
+			[
+				"bg",
+				"bg_color"
+			],
+			[
+				"Cal",
+				"CalendarFrameEvents"
+			],
+			[
+				"order",
+				"order_products"
+			],
+			[
+				"right",
+				"rightChild"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"rig",
+				"rightChild"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"add_test",
+				"add_test_lexer"
+			],
+			[
+				"test",
+				"test_lexer"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"un",
+				"uint32_t"
+			],
+			[
+				"user_",
+				"user_value"
+			],
+			[
+				"pr",
+				"print_r"
+			],
+			[
+				"getV",
+				"getValue"
+			],
+			[
+				"ri",
+				"rightChild"
+			],
+			[
+				"left",
+				"leftChild"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"o",
+				"outStack"
+			],
+			[
+				"add",
+				"addNode"
+			],
+			[
+				"pre",
+				"precedence"
+			],
+			[
+				"to",
+				"tokens"
+			],
+			[
+				"lef",
+				"leftChild"
+			],
+			[
+				"ou",
+				"outStack"
+			],
+			[
+				"L",
+				"Literal"
+			],
+			[
+				"cons",
+				"__construct"
+			],
+			[
+				"read",
+				"readline"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"h",
+				"hidden\toverflow"
+			],
+			[
+				"count",
+				"count_posts"
+			],
+			[
+				"get",
+				"get_next"
+			],
+			[
+				"long",
+				"desc-long"
+			],
+			[
+				"tmp",
+				"tmp_html"
+			],
+			[
+				"price",
+				"price_item"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"te",
+				"tempb"
+			],
+			[
+				"cs",
+				"c_str"
+			],
+			[
+				"ded",
+				"deduct_matrixes"
+			],
+			[
+				"matr",
+				"matrix1"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"num",
+				"number_line"
+			],
+			[
+				"nu",
+				"number_line"
+			],
+			[
+				"li",
+				"line"
+			],
+			[
+				"line",
+				"number_line"
+			],
+			[
+				"echo",
+				"echo_matrix"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"par",
+				"par_set_values"
+			],
+			[
+				"sum",
+				"par_sec_sum"
+			],
+			[
+				"CRI",
+				"par_crit_sum_elements"
+			],
+			[
+				"RED",
+				"par_red_sum_elements"
+			],
+			[
+				"set",
+				"set_values"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"inl",
+				"inline-flex\tdisplay"
+			],
+			[
+				"Deno",
+				"DENSO"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"si",
+				"size_t"
+			],
+			[
+				"i",
+				"image_out"
+			],
+			[
+				"rg",
+				"rgbBlue"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"image",
+				"image_out"
+			],
+			[
+				"по",
+				"поддерживает"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/App.js",
+			"settings":
+			{
+				"buffer_size": 555,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Default/Syntax Tests.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					""
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"All Syntaxes"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Performance"
+				],
+				[
+					"Packages/Default/Syntax Tests.sublime-build",
+					"Regex Compatibility"
+				]
+			],
+			[
+				"Packages/Default/Syntax Tests.sublime-build",
+				"Performance"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"rea",
+				"ReactIDE: Switch between component and stylesheet"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"SQL",
+				"Set Syntax: SQL"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"markdow",
+				"MarkdownLivePreview: Edit Current File"
+			],
+			[
+				"ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"congi",
+				"Set Syntax: Git Config"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/dvm24/Desktop/PWA/my-app",
+		"/home/dvm24/Desktop/PWA/my-app/src"
+	],
+	"file_history":
+	[
+		"/home/dvm24/Desktop/ТАФЯ/lab3/untitled.php",
+		"/home/dvm24/Desktop/PWA/my-app/src/App.js",
+		"/home/dvm24/Desktop/ТАФЯ/lab3/term_main.php",
+		"/home/dvm24/Desktop/ТАФЯ/lab3/programm.php",
+		"/home/dvm24/Desktop/PHPYD/disk.yandex.php",
+		"/home/dvm24/Desktop/PHPYD/Notes",
+		"/home/dvm24/Desktop/Английский",
+		"/home/dvm24/.config/yandex-disk/config.cfg",
+		"/home/dvm24/.local/share/notes/Записки/Notes",
+		"/home/dvm24/.config/xfce4/panel/xfce4-notes-plugin-26.rc",
+		"/home/dvm24/.config/xfce4/xfce4-screenshooter",
+		"/home/dvm24/.config/xfce4/xfconf/xfce-perchannel-xml/pointers.xml",
+		"/home/dvm24/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml",
+		"/home/dvm24/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml",
+		"/home/dvm24/.cache/xsel.log",
+		"/home/dvm24/.cache/vkaudiofs",
+		"/home/dvm24/.config/xfce4/panel/xfce4-notes-plugin-26.rc.Q184YZ",
+		"/home/dvm24/.config/xfce4/panel/xfce4-notes-plugin-26.rc.PB8I1Z",
+		"/home/dvm24/.config/xfce4/panel/xfce4-notes-plugin-26.rc.EBHQ1Z",
+		"/home/dvm24/.config/xfce4/xfce4-notes.gtkrc",
+		"/home/dvm24/Desktop/ТАФЯ/lab1/term_main.php.txt",
+		"/home/dvm24/Desktop/1-2.tis",
+		"/home/dvm24/Desktop/ТАФЯ/lab3/main.php",
+		"/home/dvm24/Desktop/ТАФЯ/lab3/test",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/controllers/admin/AdminCategories.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/models/shop/Order.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/models/shop/Category.php",
+		"/home/dvm24/Desktop/term_main.php.txt",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/system/database/drivers/mysqli/mysqli_result.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/views/admin/categories/main.php",
+		"/home/dvm24/Desktop/ТАФЯ/lab2/index.php.txt",
+		"/home/dvm24/Desktop/ТАФЯ/lab2/index.php",
+		"/home/dvm24/Desktop/ТАФЯ/lab2/main.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/models/Stats.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/controllers/admin/AdminStats.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/controllers/Admin.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/controllers/admin/AdminRoles.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/dump_base.sh",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/db_copy.sql",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/wp_donny.sql",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/.git/config",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/dump_base.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/wp_donny",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/models/shop/Products.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/controllers/Upload.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/controllers/News.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/controllers/admin/AdminUsers.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/models/shop/traits/Filter.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/core/MY_Loader.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/views/admin/stats/info.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/views/admin/templates/footer.php",
+		"/home/dvm24/Desktop/android_pah/index.php",
+		"/home/dvm24/Desktop/AutoServiceSD/app/src/main/java/com/example/dvm/carecard/MainActivity.java",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/home/dvm/AndroidStudioProjects/CareCard2/app/src/main/java/com/example/dvm/carecard/Data.java",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/home/dvm/AndroidStudioProjects/CareCard2/app/src/main/java/com/example/dvm/carecard/HttpR.java",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/home/dvm/AndroidStudioProjects/CareCard2/app/src/main/java/com/example/dvm/carecard/Carrepair.java",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/home/dvm/AndroidStudioProjects/CareCard2/app/src/main/java/com/example/dvm/carecard/GenericClass.java",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/home/dvm/AndroidStudioProjects/CareCard2/app/src/main/java/com/example/dvm/carecard/NAadapter.java",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/home/dvm/AndroidStudioProjects/CareCard2/app/src/main/java/com/example/dvm/carecard/NA.java",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/home/dvm/AndroidStudioProjects/CareCard2/app/src/main/java/com/example/dvm/carecard/NewsFrament.java",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/home/dvm/AndroidStudioProjects/AutoService/app/src/main/java/com/s/dvm/autoservice/Splash.java",
+		"/home/dvm24/Desktop/android_pah/другая копия index.php",
+		"/home/dvm24/Desktop/android_pah/autoservice.sql",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/var/www/html_свалка/API/index.php",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/home/dvm/AndroidStudioProjects/AutoServiceSD/library/library.iml",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/home/dvm/AndroidStudioProjects/AutoServiceSD/app/src/main/AndroidManifest.xml",
+		"/run/media/dvm24/957c8b1a-4eb7-413f-99ce-89c78e9f3b3b/home/dvm/AndroidStudioProjects/AutoServiceSD/app/src/main/res/menu/global.xml",
+		"/home/dvm24/Desktop/Славарь дауна",
+		"/home/dvm24/Desktop/New File",
+		"/home/dvm24/Desktop/php/asd.php",
+		"/home/dvm24/Desktop/php/test.php",
+		"/home/dvm24/Desktop/php/tdg.php",
+		"/home/dvm24/Desktop/sort.php",
+		"/home/dvm24/Desktop/YM.php",
+		"/home/dvm24/Desktop/sibtest/mp_2/application/controllers/adminpanel.php",
+		"/home/dvm24/Desktop/sibtest/mp_2/README.md",
+		"/home/dvm24/Desktop/TASM/labs_c/lab6/main.cpp",
+		"/home/dvm24/Desktop/TASM/labs_c/lab7/main.c",
+		"/home/dvm24/Desktop/TASM/labs_c/lab9/data.csv",
+		"/home/dvm24/Desktop/TASM/labs_c/lab9/main.c",
+		"/home/dvm24/Desktop/TASM/LABS/lab1n/protect.asm",
+		"/home/dvm24/Desktop/TASM/LABS/lab1n/start.bat",
+		"/home/dvm24/.dosbox/dosbox-0.74.conf",
+		"/home/dvm24/.dosbox/dosbox-0.74-2.conf",
+		"/home/dvm24/Desktop/TASM/labs_c/lab7/data.csv",
+		"/home/dvm24/Desktop/TASM/labs_c/lab8/main.c",
+		"/home/dvm24/Desktop/TASM/labs_c/lab8/data.csv",
+		"/home/dvm24/Desktop/TASM/labs_c/lab8/data",
+		"/usr/include/cblas.h",
+		"/usr/include/cblas",
+		"/home/dvm24/Desktop/TASM/labs_c/lab7/main.cpp",
+		"/home/dvm24/.themes/Greybird mod/gtk-2.0/gtkrc",
+		"/home/dvm24/Desktop/sibtest/mp_2/application/migrations/008_update_layouts_table.php",
+		"/home/dvm24/Desktop/sibtest/mp_2/application/migrations/002_add_is_published_complex.php",
+		"/home/dvm24/.themes/axe/xfwm4/themerc",
+		"/home/dvm24/.icons/capitaine/index.theme",
+		"/home/dvm24/.themes/elementary-wm/xfwm4/themerc",
+		"/home/dvm24/Desktop/ТАФЯ/lab2/programm.php",
+		"/home/dvm24/Desktop/ТПО/labs/lab1/term_main.php",
+		"/home/dvm24/AndroidStudioProjects/LAB8/app/src/main/AndroidManifest.xml",
+		"/home/dvm24/AndroidStudioProjects/LAB7/app/src/main/AndroidManifest.xml",
+		"/home/dvm24/AndroidStudioProjects/LAB5/app/src/main/java/com/example/lab5/Crime.java",
+		"/home/dvm24/AndroidStudioProjects/LAB5/app/src/main/java/com/example/lab5/CrimeFragment.java",
+		"/home/dvm24/AndroidStudioProjects/LAB5/app/src/main/java/com/example/lab5/MainActivity.java",
+		"/home/dvm24/Desktop/ТПО/labs/lab1/cypress/integration/tests/actions.spec.js",
+		"/home/dvm24/Desktop/ТПО/labs/lab1/test.php",
+		"/home/dvm24/.bashrc",
+		"/home/dvm24/Desktop/BZHD/Кафедра безопасности жизнедеятельности",
+		"/home/dvm24/Desktop/ТАФЯ/lab1/index.html",
+		"/home/dvm24/Desktop/ТПО/labs/lab1/cypress.json",
+		"/home/dvm24/Desktop/ТАФЯ/lab1/term_main.php",
+		"/home/dvm24/Desktop/ТАФЯ/lab1/main4.php",
+		"/home/dvm24/Desktop/ТАФЯ/lab1/out.php",
+		"/home/dvm24/Desktop/ТПО/labs/lab1/main.php",
+		"/home/dvm24/Desktop/ТПО/labs/lab1/main4.php",
+		"/home/dvm24/Desktop/ТАФЯ/lab2/array.txt",
+		"/home/dvm24/Desktop/ТАФЯ/lab2/array.txt_2019-05-04_12-19pm",
+		"/home/dvm24/Desktop/ТАФЯ/lab2/array_edit.php",
+		"/home/dvm24/Desktop/ТАФЯ/lab1/main.php",
+		"/home/dvm24/Desktop/TASM/labs_c/lab5/main.cpp",
+		"/home/dvm24/Desktop/TASM/labs_c/lab5/main.c",
+		"/home/dvm24/Desktop/ТАФЯ/lab1/cypress/integration/tests/actions.spec.js",
+		"/home/dvm24/Desktop/ТАФЯ/lab1/test.php",
+		"/home/dvm24/Desktop/ТАФЯ/lab1/gtk.php",
+		"/home/dvm24/Desktop/БПИ РКП/Курсовой/application/views/admin/stats/main.php",
+		"/home/dvm24/Desktop/ph/img.php",
+		"/home/dvm24/Desktop/ph/rs-ext/php-ext-hello-rs-0.1.0/README.md",
+		"/home/dvm24/Desktop/ph/rs-ext/php-ext-hello-rs-0.1.0/src/lib.rs"
+	],
+	"find":
+	{
+		"height": 19.2076830732
+	},
+	"find_in_files":
+	{
+		"height": 86.4345738295,
+		"where_history":
+		[
+			"/home/dvm24/Desktop/lasts firmwares/Firwmware Hercules 18 Strong eng/Marlin-1.1.8 - Hercules '18 + FIlamentLOAD/Marlin",
+			"/home/dvm24/Desktop/lasts firmwares/Firwmware Hercules 18 eng/Marlin-1.1.8 - Hercules '18 + FIlamentLOAD/Marlin",
+			"/home/dvm24/Desktop/lasts firmwares/Firmware - Hercules '18/Marlin-1.1.8 - Hercules '18/Marlin"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"print",
+			"echo",
+			"mikepenz",
+			"blas_reverse_matrix",
+			"Variable",
+			"Operator",
+			"Literal",
+			"array",
+			"Array",
+			"]",
+			"[",
+			"^",
+			"Variable",
+			"Operator",
+			"Variable",
+			"Operator",
+			"Literal",
+			"array",
+			"[",
+			"Array",
+			".",
+			"]",
+			"Array",
+			"isLetter",
+			"\"),\"",
+			")",
+			"),",
+			")",
+			"Variable",
+			"Literal",
+			"Operator",
+			"]",
+			"[",
+			"array",
+			"Array",
+			"\"}}}}",
+			"['",
+			"']",
+			"\"Variable\"",
+			"Operator",
+			"Variable",
+			")",
+			"Array",
+			"[",
+			"getVa",
+			"gd",
+			"update",
+			"DayEventsGroup",
+			"CalendarFrameEvents",
+			".width",
+			"DayEventsGroup",
+			"MonthDaysArray",
+			"<array",
+			"DayEventsGroup",
+			"Dsp.EventInfoLabel",
+			"Dsp.EventInfoLabel.fon",
+			"Dsp.EventInfoLabel.font",
+			"EventInfoLabel",
+			"WeekDayLabelChars",
+			"showEvents",
+			"showEvents(",
+			"showEvents",
+			"lang.script",
+			"MonthName",
+			"langset",
+			"EventsOfTheMonth(",
+			"EventsOfTheMonth",
+			"Event",
+			"ShowedYear",
+			"CalendarFrameEve",
+			"CalendarFra",
+			"CalendarGroupE",
+			"CalendarGroup",
+			"MonthAndYearGroup",
+			"Prefs.",
+			"eventInfoLabel",
+			"EventInfoLabel",
+			"CalendarFrame.color",
+			"Dsp.CalendarFrame.color",
+			"frame",
+			"Border",
+			"=> array(",
+			"'type'",
+			"array",
+			"Array",
+			"'value'",
+			"'type'",
+			"[",
+			"quickSort",
+			"filter_func ff",
+			"ff",
+			"bench_func(",
+			"objects",
+			"');\n",
+			"min-btn",
+			"emba",
+			"посмотреть",
+			"class=\"phone",
+			"../images/",
+			"$barber_item",
+			"error_log",
+			"prices",
+			"service-mobile",
+			"service2",
+			"ms_",
+			"index.html",
+			"src=\"images/",
+			"images/franch.jpg",
+			"url(images/",
+			"src=\"images/",
+			"index.html",
+			"(re)",
+			"api",
+			"secret key",
+			"api",
+			"<!--  instagram feed will load here -->",
+			"insta",
+			"Dsp.EventInfoLabel.value",
+			"Dsp.EventInfoLabel",
+			"EventsSetList",
+			"Event",
+			"events",
+			"filter_quickSort_serial",
+			"battary",
+			"width",
+			"events",
+			"void lcd_enqueue_filament_change",
+			"prehead"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"array",
+			"",
+			"array",
+			",",
+			"\")\"",
+			"),",
+			"'",
+			"array",
+			"'",
+			"tokens",
+			"/wp-content/themes/taiga/images/",
+			"$barber",
+			"",
+			"src=\"/wp-content/themes/taiga/images/",
+			"url(/wp-content/themes/taiga/images/",
+			"src=\"/wp-content/themes/taiga/images/",
+			"",
+			"L",
+			"utf8_unicode_ci",
+			"utf8"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/App.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1558220551.67,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 19.2076830732
+	},
+	"input":
+	{
+		"height": 29.2100849152
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 92.8355331421
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Default/Syntax Tests.sublime-build",
+	"project": "PWA.sublime-project",
+	"replace":
+	{
+		"height": 36.0144057623
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 417.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/zotin/ЯП.sublime-project"
+			]
+		],
+		"width": 317.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"markdown_live_preview_window": true
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
