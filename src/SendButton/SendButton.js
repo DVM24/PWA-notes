@@ -13,6 +13,14 @@ class SendButton extends Component {
     // this.setState(prevState => ({
     //   isToggleOn: !prevState.isToggleOn
     // }));
+    fetch('http://localhost:8080/disk.yandex.php', {
+  method: "POST",
+  headers: [
+    ["Content-Type", "application/json"],
+    ["Content-Type", "text/plain"]
+  ],
+  body: JSON.stringify({'action':'saveNote','name':'Английский2','text':""})
+}).then(result => result.json())
   }
 
   render() {
