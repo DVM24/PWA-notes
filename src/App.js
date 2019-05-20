@@ -16,13 +16,11 @@ class ListElement extends React.Component {
     }
     handleClick(e) {
         this.state.app.setState({ note: this.props.name })
-        fetch('http://192.168.42.36:8080/disk.yandex.php', {
-            method: "POST",
+        fetch('http://localhost:8080/disk.yandex.php?action=getNote&name=' + this.props.name, {
             headers: [
                 ["Content-Type", "application/json"],
                 ["Content-Type", "text/plain"]
             ],
-            body: JSON.stringify({ 'action': 'getNote', 'name': this.props.name })
         }).then(result => result.json()).then(result => this.state.app.setState({ text: result.text }))
         // this.state.app.forceUpdate()
         e.preventDefault();
@@ -69,17 +67,15 @@ class App extends Component {
         this.getNotes()
     }
     getNotes() {
-        fetch('http://192.168.42.36:8080/disk.yandex.php', {
-            method: "POST",
+        fetch('http://localhost:8080/disk.yandex.php?action=getNotes', {
             headers: [
                 ["Content-Type", "application/json"],
                 ["Content-Type", "text/plain"]
-            ],
-            body: JSON.stringify({ 'action': 'getNotes' })
+            ]
         }).then(result => result.json()).then(result => this.setState({ elements: result.items }))
     }
     handleSave(e, state) {
-        fetch('http://192.168.42.36:8080/disk.yandex.php', {
+        fetch('http://localhost:8080/disk.yandex.php?action=saveNote', {
             method: "POST",
             headers: [
                 ["Content-Type", "application/json"],
@@ -89,7 +85,7 @@ class App extends Component {
         }).then(result => result.json())
     }
     handleAdd(e, state) {
-        fetch('http://192.168.42.36:8080/disk.yandex.php', {
+        fetch('http://localhost:8080/disk.yandex.php?action=addNotes', {
             method: "POST",
             headers: [
                 ["Content-Type", "application/json"],
