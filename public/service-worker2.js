@@ -22,13 +22,13 @@ workbox.routing.registerRoute(
 // function getRandomInt(min, max) {//     return Math.floor(Math.random() * (max - min)) + min;
 // }
 workbox.precaching.precacheAndRoute([
-    { url: '/index.html', revision: '383676' },
+    { url: '/index.html', revision: '3836776' },
 ]);
 workbox.routing.registerRoute(
     // Cache image files.
     new RegExp('/\.(?:png|jpg|jpeg|svg|gif)$/'),
     // Use the cache if it's available.
-    new workbox.strategies.CacheFirst({
+    new workbox.strategies.NetworkFirst({
         // Use a custom cache name.
         cacheName: 'image-cache',
         plugins: [
@@ -43,7 +43,7 @@ workbox.routing.registerRoute(
 );
 workbox.routing.registerRoute(
     /(.*)action=getNote\&name=(.*)/,
-    new workbox.strategies.CacheFirst({
+    new workbox.strategies.NetworkFirst({
         cacheName: 'stories3',
         plugins: [
             new workbox.cacheableResponse.Plugin({
@@ -55,7 +55,7 @@ workbox.routing.registerRoute(
 );
 workbox.routing.registerRoute(
     'http://localhost:8080/disk.yandex.php?action=getNotes',
-    new workbox.strategies.CacheFirst({
+    new workbox.strategies.NetworkFirst({
         cacheName: 'stories2',
         plugins: [
             new workbox.cacheableResponse.Plugin({

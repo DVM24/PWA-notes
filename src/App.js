@@ -16,14 +16,12 @@ class ListElement extends React.Component {
     }
     handleClick(e) {
         this.state.app.setState({ note: this.props.name })
-        fetch('http://localhost:8080/disk.yandex.php?action=getNote&name=' + this.props.name, {
+        fetch('http://ce53626.tmweb.ru/disk.yandex.php?action=getNote&name=' + this.props.name, {
             headers: [
                 ["Content-Type", "application/json"],
                 ["Content-Type", "text/plain"]
             ],
-        }).then(result => result.json()).then(result => this.state.app.setState({ text: result.text }))
-        // this.state.app.forceUpdate()
-        e.preventDefault();
+        }).then(result => result.json()).then(result => this.state.app.setState({ note: result }))
         return false
     }
     render() {
@@ -58,7 +56,7 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            text: '',
+            name_add: '',
             note: '',
             elements: []
         };
@@ -67,35 +65,75 @@ class App extends Component {
         this.getNotes()
     }
     getNotes() {
-        fetch('http://localhost:8080/disk.yandex.php?action=getNotes', {
-            headers: [
-                ["Content-Type", "application/json"],
-                ["Content-Type", "text/plain"]
-            ]
-        }).then(result => result.json()).then(result => this.setState({ elements: result.items }))
+        fetch('http://ce53626.tmweb.ru/disk.yandex.php?action=getNotes', {
+                headers: [
+                    ["Content-Type", "application/json"],
+                    ["Content-Type", "text/plain"]
+                ]
+            }).then(result => result.json())
+            .then(result => this.setState({ elements: result.items }))
+        // .then(result => {
+        //     const elements = Array.from(JSON.parse(localStorage.getItem('state')));
+        //     return result
+        //     localStorage.setItem('state', JSON.stringify(this.state.elements))
+        // })
+
     }
     handleSave(e, state) {
-        fetch('http://localhost:8080/disk.yandex.php?action=saveNote', {
-            method: "POST",
-            headers: [
-                ["Content-Type", "application/json"],
-                ["Content-Type", "text/plain"]
-            ],
-            body: JSON.stringify({ 'action': 'saveNote', 'name': state.note, 'text': state.text })
-        }).then(result => result.json())
+
+        if (localStorage.getItem('state') == null) {
+            fetch('http://ce53626.tmweb.ru/disk.yandex.php?action=saveNote', {
+                    method: "POST",
+                    headers: [
+                        ["Content-Type", "application/json"],
+                        ["Content-Type", "text/plain"]
+                    ],
+                    body: JSON.stringify({ 'action': 'saveNote', 'name': state.note.name, 'text': state.note.text })
+                }).then(result => result.json())
+                .catch(function(err) {
+                    state.elements.map((element, i) => {
+                        if (element.name === state.note.name) {
+                            element.text = state.note.text;
+                        }
+                    })
+                    localStorage.setItem('state', JSON.stringify(state.elements))
+                });
+        } else {
+            fetch('http://ce53626.tmweb.ru/disk.yandex.php?action=syncNotes', {
+                method: "POST",
+                headers: [
+                    ["Content-Type", "application/json"],
+                    ["Content-Type", "text/plain"]
+                ],
+                body: JSON.stringify({ 'action': 'syncNotes', 'notes': JSON.parse(localStorage.getItem('state')) })
+            }).then(result => {
+                localStorage.removeItem('state');
+            }).catch(function(err) {
+                const elements = Array.from(JSON.parse(localStorage.getItem('state')));
+                elements.map((element, i) => {
+                    if (element.name === state.note.name) {
+                        element.text = state.note.text;
+                    }
+                })
+                localStorage.setItem('state', JSON.stringify(elements))
+            })
+        }
+
     }
     handleAdd(e, state) {
-        fetch('http://localhost:8080/disk.yandex.php?action=addNotes', {
+        fetch('http://ce53626.tmweb.ru/disk.yandex.php?action=addNotes', {
             method: "POST",
             headers: [
                 ["Content-Type", "application/json"],
                 ["Content-Type", "text/plain"]
             ],
-            body: JSON.stringify({ 'action': 'addNote', 'name': state.name_add, 'text': state.text })
+            body: JSON.stringify({ 'action': 'addNote', 'name': state.name_add, 'text': state.note.text })
         }).then(result => result.json()).then(result => this.setState({ elements: result.items }))
     }
     handleChange(event) {
-        this.setState({ text: event.target.value });
+        const note = this.state.note;
+        note.text = event.target.value;
+        this.setState({ note: note });
     }
     handleChangeName(event) {
         this.setState({ name_add: event.target.value });
@@ -103,10 +141,10 @@ class App extends Component {
     render() {
         return (
             <div className="App section">
-            <List elements={this.state.elements} selectedNote={this.state.note}/>
+            <List elements={this.state.elements} selectedNote={this.state.note.name}/>
       <div className="box">
-      <h1>{this.state.note}</h1>
-        <textarea className="textarea" onChange={(e) => {this.handleChange(e); }} value={this.state.text}></textarea>
+      <h1>{this.state.note.name}</h1>
+        <textarea className="textarea" onChange={(e) => {this.handleChange(e); }} value={this.state.note.text}></textarea>
         <div className="buttons is-flex" style={{ marginTop: "16px" }}>
           <button className="button is-success" style={{ flexGrow: 1 }} onClick={(e) => {this.handleSave(e,this.state); }}>
             Save
