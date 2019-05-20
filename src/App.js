@@ -66,7 +66,7 @@ class App extends Component {
         this.getNotes()
     }
     getNotes() {
-        fetch('http://ce53626.tmweb.ru/disk.yandex.php?action=getNotes', {
+        fetch(`${process.env.REACT_APP_CORS_PROXY || ''}http://ce53626.tmweb.ru/disk.yandex.php?action=getNotes`, {
                 headers: [
                     ["Content-Type", "application/json"],
                     ["Content-Type", "text/plain"]
