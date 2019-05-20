@@ -16,7 +16,8 @@ class ListElement extends React.Component {
     }
     handleClick(e) {
         this.state.app.setState({ note: this.props.name })
-        fetch('http://ce53626.tmweb.ru/disk.yandex.php?action=getNote&name=' + this.props.name, {
+        fetch(`${process.env.REACT_APP_CORS_PROXY ||
+      ''}http://ce53626.tmweb.ru/disk.yandex.php?action=getNote&name=${this.props.name}`, {
             headers: [
                 ["Content-Type", "application/json"],
                 ["Content-Type", "text/plain"]
@@ -82,7 +83,7 @@ class App extends Component {
     handleSave(e, state) {
 
         if (localStorage.getItem('state') == null) {
-            fetch('http://ce53626.tmweb.ru/disk.yandex.php?action=saveNote', {
+            fetch(`${process.env.REACT_APP_CORS_PROXY || ''}http://ce53626.tmweb.ru/disk.yandex.php?action=saveNote`, {
                     method: "POST",
                     headers: [
                         ["Content-Type", "application/json"],
@@ -99,7 +100,7 @@ class App extends Component {
                     localStorage.setItem('state', JSON.stringify(state.elements))
                 });
         } else {
-            fetch('http://ce53626.tmweb.ru/disk.yandex.php?action=syncNotes', {
+            fetch(`${process.env.REACT_APP_CORS_PROXY || ''}http://ce53626.tmweb.ru/disk.yandex.php?action=syncNotes`, {
                 method: "POST",
                 headers: [
                     ["Content-Type", "application/json"],
@@ -121,7 +122,7 @@ class App extends Component {
 
     }
     handleAdd(e, state) {
-        fetch('http://ce53626.tmweb.ru/disk.yandex.php?action=addNotes', {
+        fetch(`${process.env.REACT_APP_CORS_PROXY || ''}http://ce53626.tmweb.ru/disk.yandex.php?action=addNotes`, {
             method: "POST",
             headers: [
                 ["Content-Type", "application/json"],

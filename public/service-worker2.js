@@ -54,7 +54,7 @@ workbox.routing.registerRoute(
     }),
 );
 workbox.routing.registerRoute(
-    'http://localhost:8080/disk.yandex.php?action=getNotes',
+    /(.*)action=getNotes(.*)/,
     new workbox.strategies.NetworkFirst({
         cacheName: 'stories2',
         plugins: [
